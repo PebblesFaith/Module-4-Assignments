@@ -26,16 +26,21 @@
     images[15] = "c:/Users/sarai/Documents/Pictures/tadeusz-lakota-1400337-unsplash.jpg";
     images[16] = "c:/Users/sarai/Documents/Pictures/nathalie-spehner-1236233-unsplash.jpg";
     images[17] = "c:/Users/sarai/Documents/Pictures/mckayla-crump-669332-unsplash.jpg";
-    
-  
-    
-  
+    images[18] = "c:/Users/sarai/Documents/Pictures/mckayla-crump-669332-unsplash.jpg";
+    images[17] = "c:/Users/sarai/Documents/Pictures/ryan-walton-367436-unsplash.jpg";
+    images[18] = "c:/Users/sarai/Documents/Pictures/sam-carter-191161-unsplash.jpg";
+    images[19] = "c:/Users/sarai/Documents/Pictures/smit-patel-344842-unsplash.jpg";
+    images[20] = "c:/Users/sarai/Documents/Pictures/alaina-mclearnon-1241419-unsplash.jpg";
+    images[21] = "c:/Users/sarai/Documents/Pictures/kalaca-studio-1645512-unsplash.jpg";  
+
+
     var imageIndex = 0;
 
         function previousFunction() {
         // set image to highest index when moving past 0
         if(imageIndex == 0){
             imageIndex = images.length - 1;
+
         }
         else{
             imageIndex--;
