@@ -1,38 +1,12 @@
-/* Add paragraph (p1) element styles to header in color, fonts, margin and text. */
-#p1 {
-    color: rgb(236, 234, 119);
-    font-family: 'Times New Roman', Times, serif;
-    margin-top: 30px;
-    font-size: 30px;
-    font-style: italic;
-    text-align: center;
-}
 
-/* Add paragraph (p2) element styles to header in color, fonts, margin and text. */
-#p2 {
-    color: rgb(236, 234, 119);
-    font-family: 'Times New Roman', Times, serif;   
-    font-size: 20px;
-    font-style: italic;
-    text-align: center;
-}
-
-/* Add paragraph (p2) element styles to header in color, fonts, margin and text. */
-#p3 {
-    color: rgb(236, 234, 119);
-    font-family: 'Times New Roman', Times, serif;   
-    font-size: 15px;
-    font-style: italic;
-    text-align: center;
-}
 
 
 /* Add body element styles in background silhouette picture, and height. */
 body {
 
-    background: url('c:/Users/sarai/Documents/Pictures/matthew-feeney-1628149-unsplash.jpg') no-repeat top center;
+    background: url('c:/Users/sarai/Documents/Pictures/xuan-nguyen-1099730-unsplash.jpg') no-repeat top center;
     background-size: cover;
-    height: 100vh;
+    height: 75vh;
 }
 
 /* Add inputContainer1 attributes styles to the div element for creating flex box container. */
@@ -50,7 +24,7 @@ body {
     max-width: 700px;
     height: 700px;
     margin: 0 auto;
-    background: rgba(219, 201, 35, 0.178);
+    background: rgba(255, 255, 255, 0.178);
     padding: 30px;
     border-radius: 5px;
     display: flex;   
@@ -99,6 +73,7 @@ body {
     color: rgb(236, 234, 119);
     font-style: italic;
     text-align: center;
+    display: block;
 
 }
 
@@ -135,7 +110,7 @@ body {
 
 /* Add button1 attributes styles to the button elements.*/
 #previous {
-    background: rgba(219, 201, 35, 0.178);
+    background: rgba(130, 149, 158, 0.178);
     text-align: center;
     padding: 15px;
     border-radius: 2px;
@@ -146,7 +121,7 @@ body {
 
 /* Add button2 attributes styles to the button elements.*/
 #image {
-    background: rgba(219, 201, 35, 0.178);
+    background: rgba(130, 149, 158, 0.178);
     text-align: center;
     padding: 15px;
     border-radius: 2px;
@@ -157,7 +132,7 @@ body {
 
 /* Add button3 attributes styles to the button elements.*/
 #next {
-    background: rgba(219, 201, 35, 0.178);
+    background: rgba(130, 149, 158, 0.178);
     text-align: center;
     padding: 15px;
     border-radius: 2px;
@@ -167,10 +142,39 @@ body {
 }
 
 
+/* Add paragraph (p1) element styles to header in color, fonts, margin and text. */
+#p1 {
+    color: rgb(35, 65, 78);
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 75px;
+    font-size: 30px;
+    font-style: italic;
+    text-align: center;
+}
+
+/* Add paragraph (p2) element styles to header in color, fonts, margin and text. */
+#p2 {
+    color: rgb(130, 149, 158);
+    font-family: 'Times New Roman', Times, serif; 
+    margin-top: 35px; 
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+}
+
+/* Add paragraph (p2) element styles to header in color, fonts, margin and text. */
+#p3 {
+    color: rgb(130, 149, 158);
+    font-family: 'Times New Roman', Times, serif;   
+    font-size: 15px;
+    font-style: italic;
+    text-align: center;
+}
+
 /* Responsive layout makes the one (1) column stack on top of each other instead of next to each other
   in row.*/
 @media (max-width: 600px) {    
-    .toDoList-form {
+    .image-form {
         flex-direction: column;        
     }
 }
